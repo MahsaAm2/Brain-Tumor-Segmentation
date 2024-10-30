@@ -55,6 +55,7 @@ The expansive path contains four blocks, structured as follows:
 - **Increased Batch Size**: By utilizing 2D U-Net, we could also increase the batch size, which improves training stability and efficiency.
 - **High Overlap with Ground Truth**: The model outputs show strong overlap with the original masks, indicating accurate segmentation. We anticipate further improvements in overlap with the addition of more training iterations and optimizations.
 
+
 ## Loss Function
 The error function is a combination of the following two loss functions:
 1. **Dice Loss**
