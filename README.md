@@ -23,6 +23,7 @@ The BraTS 2021 dataset provides four MRI modalities (T1, T2, FLAIR, T1c) and a s
 3. **Slice Selection**: Reduced the number of slices to 128 by selecting slices 13 through 141.
 4. **Resizing**: Scaled each slice from 240x240 to 128x128 pixels.
 5. **Channel Combination**: Merged the T2, T1c, and FLAIR series, creating final images with dimensions 128x128x3.
+   
 ![image](https://github.com/user-attachments/assets/3f8e9aa5-732c-4353-b1f8-d56ffdd939ed)
 
 ## Data Split
